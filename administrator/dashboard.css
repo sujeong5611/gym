@@ -44,12 +44,28 @@ ul{
 #top{
     width: 100%;
     height : 72px;
-    background-color: red;
+    background-color: #FFFFFF;
     position: absolute;
     top : 0px;
-
+    margin-left : 230px;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px gray;
+    
 }
-#top li{
+#dash{
+    width : 156px;
+    height : 50px;
+    font-weight: 900;
+    margin-left : 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 6px solid #345C9D;
+    margin-top : 22px;
+}
+#dash li{
     list-style: none;
-    height: 72px;
+    margin: 0 auto;
+    font-size: 15px;
 }
