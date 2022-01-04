@@ -7,24 +7,36 @@ body{
 #menu{
     background-color : #242f56;
     width : 230px;
-    height: 1080px;
+    height: 937px;
 }
 .sub_menu{
     width: 230px;
     height: 100%;
 }
 .logo{
-    height: 72px;
+    height: 62px;
     display : flex;
     align-items: center;
     justify-content: center;
 }
 .logo img{
-    width: 97px;
-    height: 28px;
+    height: 24px;
 }
 ul{
     list-style-type: none;
+}
+.exit{
+    height: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 510px;
+}
+.exit p{
+    color: #FFFFFF;
+}
+.exit img{
+    margin-left: 6px;
 }
 #menu li{
     align-items: center;
@@ -42,8 +54,8 @@ ul{
     background-color: #0F1633;
 }
 #top{
-    width: 1673px;
-    height : 72px;
+    width: 1688px;
+    height : 62px;
     background-color: #FFFFFF;
     position: absolute;
     top : 0px;
@@ -52,11 +64,10 @@ ul{
     display: flex;
     align-items: center;
     box-shadow: 2px 2px 2px 2px #dbdbdb;;
-    
 }
 #dash{
     width : 156px;
-    height : 50px;
+    height : 43px;
     font-weight: 900;
     font-size : 15px;
     margin-left : 60px;
@@ -72,7 +83,7 @@ ul{
 }
 #TODAY{
     width: 800px;
-    height: 204px;
+    height: 176px;
     position: absolute;
     top : 152px;
     left : calc(230px + 110px);
@@ -81,7 +92,7 @@ ul{
 }
 #TODAY_TITLE{
     width : 57px;
-    height: 21px;
+    height: 18px;
 }
 #TODAY_TITLE li{
     list-style : none;
@@ -96,12 +107,11 @@ table{
     text-align: center;
     display : table;
     border : 1px solid #ebebeb;
-    /*table border-radius 확인
-    border-radius: 20px;*/
+    border-radius: 20px;
+    overflow: hidden;
 }
 tr{
-    height : 50px;
-    border : 1px solid #ebebeb;
+    height : 43px;
 }
 th{
     display : table-cell;
@@ -112,11 +122,15 @@ th{
 td{
     display : table-cell;
     vertical-align: middle;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #ebebeb;
+
 }
 #count{
     margin-top: 34px;
-    height: 150px;
+    height: 130px;
     width : 800px;
+
 }
 #count li.count_title{
     margin : 28px 40px;
@@ -127,9 +141,10 @@ td{
     border : 2px solid #769cff;
     border-radius: 60px;
     width: 240px;
-    height: 150px;
+    height: 130px;
     list-style: none;
     float : left;
+    background-color: #FFFFFF;
 }
 .count1p span{
     color:#5382FF;
@@ -138,7 +153,7 @@ td{
 }
 .count1p{
     width : 88px;
-    height: 59px;
+    height: 51px;
     margin-left: 114px;
     color : #636363;
     font-size : 13px;
@@ -147,23 +162,25 @@ td{
     border : 2px solid #769cff;
     border-radius : 60px;
     width : 240px;
-    height : 150px;
+    height : 130px;
     list-style: none;
     float : left;
     margin-left : 34px;
+    background-color: #FFFFFF;
 }
 #new{
     border : 2px solid #769cff;
     border-radius : 60px;
     width : 240px;
-    height : 150px;
+    height : 130px;
     list-style: none;
     float : left;
     margin-left : 34px;
+    background-color: #FFFFFF;
 }
 .count2p{
     width : 88px;
-    height: 59px;
+    height: 51px;
     margin-left: 156px;
     color : #636363;
     font-size : 13px;
@@ -176,7 +193,7 @@ td{
 #PROGRESS{
     background-color : #FFFFFF;
     width : 600px;
-    height: 418px;
+    height: 381px;
     position: absolute;
     top : -30px;
     left : 870px;
@@ -185,7 +202,7 @@ td{
 }
 #pro_title{
     width:91px;
-    height: 21px;
+    height: 18px;
     margin-top : 30px;
     margin-left: 40px; 
 }
@@ -230,7 +247,7 @@ td{
 #CALENDAR{
     background-color: #FFFFFF;
     width: 1470px;
-    height: 418px;
+    height: 362px;
     border-radius: 20px;
     margin-top: 45px;
     box-shadow: 2px 2px 2px 2px #dbdbdb;
@@ -239,7 +256,7 @@ td{
 #cal_title{
     list-style : none;
     width: 92px;
-    height: 21px;
+    height: 18px;
     margin-left : 40px;
     display : inline-block;
     margin-top:35px;
