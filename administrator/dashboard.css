@@ -42,7 +42,7 @@ ul{
     background-color: #0F1633;
 }
 #top{
-    width: 100%;
+    width: 1673px;
     height : 72px;
     background-color: #FFFFFF;
     position: absolute;
@@ -51,13 +51,14 @@ ul{
     z-index: -1;
     display: flex;
     align-items: center;
-    box-shadow: 2px 2px 2px 2px gray;
+    box-shadow: 2px 2px 2px 2px #dbdbdb;;
     
 }
 #dash{
     width : 156px;
     height : 50px;
     font-weight: 900;
+    font-size : 15px;
     margin-left : 60px;
     display: flex;
     align-items: center;
@@ -85,6 +86,7 @@ ul{
 #TODAY_TITLE li{
     list-style : none;
     font-size : 18px;
+    font-weight: bold;
 }
 #today_table{
     margin-top: 35px;
@@ -114,6 +116,7 @@ td{
 #count{
     margin-top: 34px;
     height: 150px;
+    width : 800px;
 }
 #count li.count_title{
     margin : 28px 40px;
@@ -147,7 +150,7 @@ td{
     height : 150px;
     list-style: none;
     float : left;
-    margin-left : 40px;
+    margin-left : 34px;
 }
 #new{
     border : 2px solid #769cff;
@@ -156,7 +159,7 @@ td{
     height : 150px;
     list-style: none;
     float : left;
-    margin-left : 40px;
+    margin-left : 34px;
 }
 .count2p{
     width : 88px;
@@ -168,5 +171,80 @@ td{
 .count2p span{
     color:#5382FF;
     font-size: 50px; 
+    font-weight: bold;
+}
+#PROGRESS{
+    background-color : #FFFFFF;
+    width : 600px;
+    height: 418px;
+    position: absolute;
+    top : -30px;
+    left : 870px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #dbdbdb;
+}
+#pro_title{
+    width:91px;
+    height: 21px;
+    margin-top : 30px;
+    margin-left: 40px; 
+}
+#pro_title li{
+    list-style: none;
+    font-size: 18px;
+    align-items: center;
+    font-weight: bold;
+}
+#prev{
+    margin-top: 154px;
+    margin-left:40px;
+    float : left;
+}
+#graph{
+    float : left;
+    margin-left : 55px;
+    margin-top : 79px;
+}
+#pro_content{
+    list-style: none;
+    width : 106px;
+    float : left;
+    text-align: center;
+    margin-top : 150px;
+    margin-left : 44px;
+}
+.pro_subtitle {
+    font-size : 14px;
+}
+.pro_count{
+    font-size : 25px;
+}
+.pro_count span{
+    color : #316AFF;
+}
+#next{
+    margin-top: 154px;
+    margin-left:40px;
+    float : left;
+}
+#CALENDAR{
+    background-color: #FFFFFF;
+    width: 1470px;
+    height: 418px;
+    border-radius: 20px;
+    margin-top: 45px;
+    box-shadow: 2px 2px 2px 2px #dbdbdb;
+    display : block;
+}
+#cal_title{
+    list-style : none;
+    width: 92px;
+    height: 21px;
+    margin-left : 40px;
+    display : inline-block;
+    margin-top:35px;
+}
+#cal_title li{
+    font-size : 18px;
     font-weight: bold;
 }
