@@ -1,16 +1,104 @@
 body{
-    background-image: url('img/Group\ 110.png');
     width : 100%;
     height: 100vh;
+    background-image: url('img/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
 }
-#Home{
-    background-color: red;
-    width: 300px;
-    height: 30px;
-    position: absolute;
-    bottom : 120px;
-    left : 1050px;
+#title {
+    color : white;
+    text-align: center;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
 }
+#title .maintitle{
+    font-size: 48px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-top: 150.85px;
+    font-size : 200px;
+}
+.Content{
+    font-family: 'Quicksand', sans-serif;
+    font-size : 40px;
+    float : left;
+}
+.Content .homebtn{
+    border : none;
+    border-radius: 40px;
+    width : 300px;
+    height: 65.89px;
+    font-size : 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight : 400;
+    margin-top : 304.06px;
+    background : #1e7c93;
+    color : white;
+}
+#left{
+    position: absolute;
+    top : 674px;
+    left : 243px;
+}
+#left img{
+    width : 160px;
+    animation: animate 3s linear infinite;
+}
+#right{
+    position: absolute;
+    top : 703px;
+    right : 7px;
+}
+#right img{
+    width : 300px;
+    animation: animate2 5s linear infinite;
+    transition-timing-function: ease-in;
+}
+@keyframes animate{
+    0%
+    {
+        transform: translateY(0px) rotate(-5deg);
+    }
+    25%
+    {
+        transform: translateY(5px) rotate(5deg);
+    }
+    50%
+    {
+        transform: translateY(0px) rotate(-5deg);
+    }
+    75%
+    {
+        transform: translateY(5px) rotate(5deg);
+    }
+    100%
+    {
+        transform: translateY(0px) rotate(-5deg);
+    }
+}
+@keyframes animate2{
+    0%
+    {
+        transform: translateY(0px) rotate(5deg);
+    }
+    25%
+    {
+        transform: translateY(-10px) rotate(-5deg);
+    }
+    50%
+    {
+        transform: translateY(0px) rotate(5deg);
+    }
+    75%
+    {
+        transform: translateY(10px) rotate(-5deg);
+    }
+    100%
+    {
+        transform: translateY(0px) rotate(5deg);
+    }
+    
+}
+
