@@ -79,3 +79,31 @@ ul{
     margin : 0 auto;
     font-size : 15px;
 }
+#search{
+    background-color: #FFFFFF;
+    width: 352px;
+    height: 38.14px;
+    position: absolute;
+    top : 100px;
+    left : calc(230px + 60px);
+    box-shadow: 2px 2px 2px 2px #ebebeb;
+}
+.se_title{
+    width : 29.33px;
+    height: 21.56px;
+    font-size: 14px;
+    font-weight: bold;
+    list-style: none;
+    float : left;
+    margin-left: 16.92px;
+    margin-top : 10px;
+}
+.se_contents{
+    height : 21.56px;
+    float : left;
+    margin-left : 16.92px;
+    margin-top : 10px;
+    font-size: 12px;
+    list-style: none;
+    color : #d1d1d1;
+}
