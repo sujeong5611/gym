@@ -23,6 +23,7 @@ body{
 .Content{
     font-family: 'Quicksand', sans-serif;
     font-size : 40px;
+    font-weight: 100;
     float : left;
 }
 .Content .homebtn{
@@ -31,11 +32,16 @@ body{
     width : 300px;
     height: 65.89px;
     font-size : 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight : 400;
+    font-family: 'Quicksand', sans-serif;
+    font-weight : bold;
     margin-top : 304.06px;
     background : #1e7c93;
     color : white;
+    box-shadow: 4px 4px rgba(47, 120, 137, 0.3);
+    cursor : pointer;
+}
+.Content .homebtn:hover{
+    background-color: #279fbd;
 }
 #left{
     position: absolute;
