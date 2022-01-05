@@ -107,3 +107,16 @@ ul{
     list-style: none;
     color : #d1d1d1;
 }
+#user_list{
+    height : 192.47px;
+    width: 1273px;
+    background-color : rgb(245, 245, 167);
+    position: absolute;
+    top : 172px;
+    left : calc(230px + 60px);
+}
+.user_title{
+    list-style: none;
+    font-size : 20px;
+    font-weight: bold;
+}
